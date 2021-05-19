@@ -1,0 +1,134 @@
+baseurl = "https://www.cenan.mx/"
+languageCode = "en"
+title = "Cenan - Centro de analisis, Opinion Publica y Mercadotecnia"
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = ""
+    [[params.navbar.menu]]
+      link = "#"
+      text = "  Inicio"
+    [[params.navbar.menu]]
+      link = "#feature"
+      text = "Estudios"
+    [[params.navbar.menu]]
+      link = "#gallery"
+      text = "Curriculum"
+    [[params.navbar.menu]]
+      link = "#testimonial"
+      text = "Curriculum"
+
+  # Header
+  [params.header]
+    title = "¿Quienes somos?"
+    text = "Organización dedicada a la identificación y generación de valor de los productos y servicios de nuestros clientes a través de la sistematización de la información, apoyándonos en la investigación y en los diversos talentos de la organización.<br><br> Tenemos más de 10 años de experiencia al servicio de los empresarios y de las instituciones ofreciendo los mejores resultados."
+    [params.header.image]
+      path = "images/CENAN.png"
+      alt = "Watch"
+    [params.header.button]
+      link = "#"
+      text = "Contactanos"
+
+  # Features
+  [params.features]
+    title = "Estudios Cuantitativos"
+    [params.features.image]
+      path = "images/pay.gif"
+      alt = "Watch"
+    # Menu at the left of the image
+    # [[params.features.left]]
+    #   icon = "tf-ion-ios-alarm-outline"
+    #   title = "Estudios Cuantitativos"
+    #   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.left]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Estudios de Opinión sobre Gestión de Gobierno"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.left]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Estudios sobre Situaciones Coyunturales"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Estudios Específicos a Dependencias de Gobierno"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Estudios sobre Problemas Sociales y Económicos"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Estudios de Ambiente Político Electoral"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+  [params.promo]
+    title = "CURRICULUM"
+    text = "<li>Encuesta política en diversos estados y municipios de Puebla y el país. (Veracruz, Quintana Roo, Mérida, Tlaxcala, Hidalgo, Oaxaca, DF y otros).</li><li>Encuestas de opinión y encuestas de salida Puebla 2013, 2012, 2010,2009, 2006 (gobernador, presidentes municipales y diputados locales).</li><li>Grupos de enfoque sobre jóvenes</li><li>Grupos de enfoque sobre educación en Sinaloa, BC.</li><li>Grupos de enfoque con niños, sobre productos infantiles en Puebla.</li><li>Grupos de Enfoque sobre marginación en Quintana Roo</li><li>Encuesta precandidatos a presidente municipal Puebla.</li><li>Encuesta aspirantes a Juntas Auxiliares Puebla.</li><li>Encuesta precandidatos a diputados locales.</li><li>Encuestas sobre debates locales.</li><li>Encuestas sobre temas sociales en Hidalgo, Tlaxcala.</li><li>Encuesta nacional sobre bienestar subjetivo (felicidad).</li><li>Elección para Gobernador, Diputados locales y Presidentes Municipales.</li><li>26 Distritos locales del Estado de Puebla.</li><li>Elección para Presidente de la República, Senadores y Diputados Federales en los 16 Distritos del Estado de Puebla</li><li>Elección para Presidentes Municipales y 26 Diputaciones locales.</li><li>Elección para Diputados Federales en los 16 Distritos federales del Estado de Puebla.</li>"
+    [params.promo.image]
+      path = "images/chart.gif"
+      alt = "Watch"
+
+  [params.feature_list]
+    title = "Why Choose Apple Watch"
+    [[params.feature_list.items]]
+      image = "images/CENAN.png"
+      title = "Lorem ipsum dolor sit amet."
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-3.png"
+      title = "Lorem ipsum dolor sit amet."
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = ""
+      button_text = "Check Features"
+
+  [params.gallery]
+    title = "Checkout some amazing Shorts"
+    # Set the image directory to use as base
+    directory = "images/showcase"
+    # Set the images to show in the gallery
+    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+
+  [params.call_to_action]
+    title = "Get Product Updates"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    placeholder = "Your Email Address Here"
+    button_text = "Subscribe"
+
+  [params.testimonials]
+    title = "Watch Review"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [params.testimonials.button]
+      link = ""
+      text = "Grab You Product Now"
+
+  # Footer uses navbar data
